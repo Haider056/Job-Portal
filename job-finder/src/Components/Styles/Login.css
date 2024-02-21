@@ -1,0 +1,87 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+form button{
+  margin-top: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 20%;
+  text-align: center; 
+}
+
+.login-form hr {
+  width: 100%;
+  margin-top: 20px; 
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 20px;
+  background-color: #4985fa;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+p {
+  cursor: pointer;
+  color: #4985fa;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.google-login {
+  background-color: #fff;
+  color: #090909;
+  border: 1px solid #0d0d0d;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  width: 50%;
+  align-self: center;
+  background-image: url("D:/Workspace/React Projects/Job Portal/job-finder/src/Components/Assests/google.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 30px;
+margin-bottom: 30px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.divider hr {
+  width: 40%; 
+  margin: 0 10px;
+}
+.divider p{
+  margin-bottom: 10px;
+  color: black;
+}

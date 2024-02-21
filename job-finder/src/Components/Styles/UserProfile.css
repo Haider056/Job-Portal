@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Profile-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.Profile-Container button {
+  border-radius: 28px;
+  border: 1px solid var(--peak-primary, #384d6c);
+  background: #fff;
+  color: var(--peak-primary, #384d6c);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-image: url("D:\Workspace\React Projects\Job Portal\job-finder\src\Components\Assests\Logout.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  width: 10%;
+  margin-right: 20px;
+}
+
+.UserControl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+#B1 {
+  border-radius: 8px;
+  border: 1px solid #384d6c;
+  background: var(--peak-primary, #384d6c);
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+#B2 {
+  border-radius: 8px;
+  border: 1px solid var(--peak-primary, #384d6c);
+  background: #fff;
+  color: #384d6c;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; 
+}
+.UserID {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.UserID img {
+  width: 15%;
+  margin-bottom: 10px;
+}
+
+.UserID h4 {
+  margin: 0;
+}
+.UserID button {
+  margin-left: 10px;
+}
+
+.User-Control1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.UserForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.FormRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.FormField {
+  margin-top: 100px;
+  margin: 10px 0;
+  padding-left: 70px;
+}
+
+.FormField label {
+  color: #384d6c;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+}
+
+.FormField input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Separator {
+  width: 40%;
+  border: 1px solid #ccc;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.EmailPhone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  margin-top: 10px;
+}
+.Controls{
+    display: flex;
+    justify-content: flex-end;
+    width: 71%;
+    margin-top: 20px;
+}
+.Controls button{
+    margin-left: 20px;
+}
+.Stats{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+}
